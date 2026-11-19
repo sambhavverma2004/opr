@@ -1,0 +1,5 @@
+Strategy,Status,CO2 (kg),Saved vs baseline (%),Variables,Integer vars,Constraints,Solve time (s)
+Baseline: run ASAP at home,OPTIMAL,306.6,0.0,354,0,556,0.001
+Time-shifting (home region),OPTIMAL,257.2,16.1,354,0,556,0.001
+Time + space shifting (LP),OPTIMAL,115.6,62.3,1224,0,556,0.025
+"Time + space, one region per job (MIP)",OPTIMAL,118.5,61.3,1258,34,600,0.326

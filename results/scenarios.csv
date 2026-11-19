@@ -1,0 +1,7 @@
+Scenario,Status,Baseline CO2 (kg),MIP CO2 (kg),Change vs base MIP (%),IIS (if infeasible)
+Base case,OPTIMAL,306.6,118.5,0.0,
+France capacity halved (16->8),OPTIMAL,306.6,164.0,38.4,
+All capacities +50%,OPTIMAL,306.6,87.5,-26.1,
+48-h deadlines cut to 36 h,OPTIMAL,306.6,141.7,19.5,
+All jobs EU-only (stricter residency),OPTIMAL,306.6,119.7,1.0,
+PUE 1.58 (industry average DC),OPTIMAL,403.7,156.0,31.7,

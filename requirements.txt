@@ -1,0 +1,4 @@
+gurobipy>=11.0
+pandas>=2.0
+streamlit>=1.40
+plotly>=5.20

@@ -1,0 +1,11 @@
+job_id,job_name,home_region,gpu_hours,max_gpus,release_h,deadline_h,allowed_regions
+J1,LLM-7B LoRA fine-tuning,DE,256,16,0,48,EU
+J2,ResNet-50 ImageNet training,GB,192,8,0,48,ANY
+J3,Nightly recommender retrain,DE,64,8,0,12,EU
+J4,Whisper speech model fine-tune (US health data),CA,96,8,0,36,US
+J5,YOLOv8 object-detection training,CA,120,8,6,48,ANY
+J6,Hyper-parameter sweep (GPU XGBoost),GB,160,16,0,48,ANY
+J7,Stable Diffusion LoRA,FR,48,4,0,24,ANY
+J8,GNN fraud-model retrain (EU bank data),DE,80,8,12,36,EU
+J9,PPO reinforcement-learning agent,GB,72,4,0,48,ANY
+J10,Batch inference / evaluation run,CA,40,8,24,48,ANY
